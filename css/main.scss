@@ -240,6 +240,14 @@ img {
     border-radius: 0, 5px, 5px, 0;
     outline: none;
     cursor: pointer;
+
+    &:hover {
+        background-color: $btn-hover;
+    }
+
+    &:active {
+        background-color: $btn-active;
+    }
 }
 
 .footer {

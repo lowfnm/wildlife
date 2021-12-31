@@ -255,6 +255,14 @@ img {
   cursor: pointer;
 }
 
+.message__send:hover {
+  background-color: #ec8a00;
+}
+
+.message__send:active {
+  background-color: #8a5300;
+}
+
 .footer {
   padding: 149px 0;
   background-image: url(../image/footer-background.jpg);
