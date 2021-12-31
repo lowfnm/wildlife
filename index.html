@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/main.css" />
+        <title>WildLife</title>
+    </head>
+    <body>
+        <div class="header-wrapper">
+            <div class="container">
+                <header class="header">
+                    <a href="#" class="header__list list-none">
+                        <img
+                            class="header__logo"
+                            src="./image/header-logo.svg"
+                            alt="Logo"
+                        />
+                        <span class="header__text">Wildlife</span>
+                    </a>
+
+                    <nav class="header__list">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">Blog</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">Contacts</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#"
+                                    ><img
+                                        src="./image/header-loop.svg"
+                                        alt="Loop"
+                                /></a>
+                            </li>
+                            <li class="nav__item">
+                                <button class="nav__link nav__link--btn">
+                                    Sign In
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <section class="info">
+                    <h1 class="info__header">Survival</h1>
+                    <p class="info__text">
+                        What this means is that we exist to help protect our
+                        environment and do in numbers of ways. You can save the
+                        planet by donation.
+                    </p>
+
+                    <div class="btn">
+                        <button class="info__btn">Donate</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <main>
+            <section class="articles">
+                <div class="container">
+                    <h2 class="articles__header">Latest articles</h2>
+                    <span class="articles__text"
+                        >Breaking news from the wild</span
+                    >
+
+                    <ul class="articles__list">
+                        <li class="acrticles__item">
+                            <img src="./image/slider1.jpg" alt="Deer" />
+                            <div class="articles__block">
+                                <h4 class="block__header">Deer</h4>
+                                <span class="block__text"
+                                    >Naturalist investigation</span
+                                >
+                            </div>
+                        </li>
+                        <li class="acrticles__item">
+                            <img src="./image/slider2.jpg" alt="Squirrel" />
+                            <div class="articles__block">
+                                <h4 class="block__header">Squirrel</h4>
+                                <span class="block__text"
+                                    >Kamikaze squirrels</span
+                                >
+                            </div>
+                        </li>
+                        <li class="acrticles__item">
+                            <img src="./image/slider3.jpg" alt="Bird" />
+                            <div class="articles__block">
+                                <h4 class="block__header">Bird</h4>
+                                <span class="block__text"
+                                    >Birds Fight club</span
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="message">
+                <div class="container">
+                    <h3 class="message__header">
+                        Get notified about new amazing articles
+                    </h3>
+                    <form class="message__form" action="#">
+                        <input
+                            class="message__email"
+                            type="email"
+                            placeholder="Email"
+                        />
+                        <input
+                            class="message__send"
+                            type="submit"
+                            value="Send"
+                        />
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="about">
+                    <a href="#" class="header__list list-none">
+                        <img
+                            class="header__logo"
+                            src="./image/header-logo.svg"
+                            alt="Logo"
+                        />
+                        <span class="header__text">Wildlife</span>
+                    </a>
+                    <ul class="about__list list-mobile">
+                        <li class="about__item">
+                            <a href="about__link">Articles</a>
+                        </li>
+                        <li class="about__item">
+                            <a href="about__link">About us</a>
+                        </li>
+                        <li class="about__item">
+                            <a href="about__link">Learn more</a>
+                        </li>
+                    </ul>
+
+                    <ul class="about__list">
+                        <li class="about__icons">
+                            <a
+                                class="icons__link"
+                                href="https://facebook.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <svg class="about__svg">
+                                    <use
+                                        href="./image/symbol-defs.svg#icon-facebook"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="about__icons">
+                            <a
+                                class="icons__link"
+                                href="https://www.instagram.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <svg class="about__svg">
+                                    <use
+                                        href="./image/symbol-defs.svg#icon-instagram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="about__icons">
+                            <a
+                                class="icons__link"
+                                href="https://www.pinterest.ru/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <svg class="about__svg">
+                                    <use
+                                        href="./image/symbol-defs.svg#icon-pinterest"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="about__icons">
+                            <a
+                                class="icons__link"
+                                href="https://telegram.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <svg class="about__svg">
+                                    <use
+                                        href="./image/symbol-defs.svg#icon-telegram"
+                                    ></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
